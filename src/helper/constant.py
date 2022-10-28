@@ -5,6 +5,7 @@ Tekan tombol <b>Tutorial</b> dibawah ini untuk melihat bagaimana cara mengubah <
 """
     NOT_ADMIN_ALERT = """
 ⚠ <b>Alert</b> ⚠
+
 <i>Jadikan aku sebagai <b>admin</b> dan beri aku hak untuk <b>menghapus pesan.</b></i>
 """
     ABOUT = """
@@ -19,13 +20,14 @@ Tekan tombol <b>Tutorial</b> dibawah ini untuk melihat bagaimana cara mengubah <
     HELP = """
 <b>Berikut ini adalah menu bantuan!</b>
 
-» <code>/start</code> untuk memulai bot!
+» <code>/tebak</code> untuk memulai bot!
 » <code>/play</code> untuk mulai menebak gambar!
 » <code>/top</code> untuk melihat top leaderboard!
 
 <b>Enjoy!</b>
 """
     START = """
-Langsung saja yuk, kita bermain... kamu dapat memulainya dengan
-menekan tombol Petunjuk dibawah untuk membaca tentang cara menggunakanku. Enjoy!!!
+👋 <b>Hai, Aku adalah bot tebak gambar untuk bersenang senang!</b>
+
+📣 <b>Tambahkan aku ke grup kamu dan jadikan aku sebagai admin. Untuk informasi lebih lanjut tekan tombol <i>petunjuk!</i></b>
 """
