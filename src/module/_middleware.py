@@ -23,7 +23,7 @@ def middleware(update, context):
         is_flooding = limiter.is_limited(context, "private")
         if is_flooding:
             if update.callback_query:
-                update.callback_query.answer("Tunggu... jangan melakukan spam!!")
+                update.callback_query.answer("Dimohon sabar, dan jangan melakukan spam!")
 
             raise DispatcherHandlerStop
 
@@ -47,7 +47,7 @@ def middleware(update, context):
                     Constant.GROUP_ALERT,
                     parse_mode = "HTML",
                     reply_markup = InlineKeyboardMarkup(
-                        [[ InlineKeyboardButton(text = "Tutorial", url = "t.me/tokai") ]]
+                        [[ InlineKeyboardButton(text = "Tutorial", url = "t.me/gcaika") ]]
                     )
             )
 
