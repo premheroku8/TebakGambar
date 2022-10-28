@@ -9,7 +9,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 def init(dispatcher):
-    dispatcher.add_handler( CommandHandler("play", play, filters = Filters.chat_type.supergroup) )
+    dispatcher.add_handler( CommandHandler(["mulai", "tebak"], play, filters = Filters.chat_type.supergroup) )
 
 def play(update, context):
     msg = update.effective_message
