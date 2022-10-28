@@ -2,7 +2,7 @@ import logging, os
 
 from importlib import import_module
 from telegram.ext import Updater, CallbackContext
-
+from conf import TOKET
 from src.helper.game import game
 
 logging.basicConfig(
@@ -26,7 +26,7 @@ def load_handlers(dispatcher):
             module.init(dispatcher)
 
 def main():
-    updater = Updater("PUT-YOUR-BOT-TOKEN-HERE", use_context = True)
+    updater = Updater(TOKET, use_context = True)
     dispatcher = updater.dispatcher
 
     load_handlers(dispatcher)
