@@ -28,6 +28,7 @@ def start(update, context):
     context.user_data["time"] = datetime.datetime.now()
     msg.reply_text(
         Constant.START,
+        parse_mode = "HTML",
         allow_sending_without_reply = True,
         reply_markup = InlineKeyboardMarkup(keyboard)
     )
