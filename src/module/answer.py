@@ -26,7 +26,7 @@ def track_answer(update, context):
     ):
         return
     
-    text = "<b><i>Salah</i></b> ❌" + "\n"
+    text = "<b>Jawaban Salah</b> ❌" + "\n"
     text += f"<b>{ msg.text }</b> <i>bukanlah jawaban yang benar, cobalah kembali!!</i>"
     
     if msg.text.lower() == chat_data["cache_game"]["answer"]:
@@ -43,8 +43,8 @@ def track_answer(update, context):
         else:
             database.update_score(( updated_score, msg.from_user.id ))
         
-        text = "<b><i>Benar</i></b> 🎉" + "\n"
-        text += f"<i>Jawaban kamu benar!! kamu mendapat</i> <b>{ score }</b> <i>skor dan "
+        text = "<b>Jawaban Benar</b> 🎉" + "\n"
+        text += f"<i>Kamu mendapat</i> <b>{ score }</b> <i>skor dan "
         text += f"total skor kamu menjadi</i> <b>{ updated_score }</b>"
     
     chat_data["time"] = datetime.datetime.now()
