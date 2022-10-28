@@ -20,8 +20,8 @@ Tekan tombol <b>Tutorial</b> dibawah ini untuk melihat bagaimana cara mengubah <
     HELP = """
 <b>Berikut ini adalah menu bantuan!</b>
 
-» <code>/tebak</code> untuk memulai bot!
-» <code>/play</code> untuk mulai menebak gambar!
+» <code>/start</code> untuk memulai bot!
+» <code>/tebak</code> untuk mulai menebak gambar!
 » <code>/top</code> untuk melihat top leaderboard!
 
 <b>Enjoy!</b>
