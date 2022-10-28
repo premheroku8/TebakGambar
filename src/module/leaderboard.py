@@ -34,8 +34,8 @@ def leaderboard(update, context):
         if ( (index - 1) <= 2 ):
             medal = medals[index - 1]
 
-        text += f"<b>{ index }. <i>{ mention }</i></b> { medal }" + "\n"
-        text += f"<b>└</b> <code>{ score } pts</code> <b>-</b> <code>{ user_id }</code>" + "\n"
+        text += f"<b>{ index }. <i>{ mention }</i></b> { medal } [<code>{ user_id }</code>]" + "\n"
+        text += f"<b>└</b> <code>{ score } pts</code>" + "\n"
 
     context.chat_data["time"] = datetime.datetime.now()
     msg.reply_text(text, parse_mode = "HTML")
