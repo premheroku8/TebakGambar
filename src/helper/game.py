@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 
 class GameHelper:
     def __init__(self):
-        self.abs_url = "https://jawabantebakgambar.net"
+        self.abs_url = "https://nekopencil.com/games/kunci-jawaban-tebak-gambar/"
         self.rel_url = "/all-answers/"
 
     def parse(self, html):
