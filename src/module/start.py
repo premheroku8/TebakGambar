@@ -21,7 +21,7 @@ def start(update, context):
             InlineKeyboardButton( text = "Petunjuk", callback_data = "help" ),
             InlineKeyboardButton( text = "Tentangku", callback_data = "about" )
         ],[
-            InlineKeyboardButton( text = "Channel", url = "t.me/gcaika" )
+            InlineKeyboardButton( text = "Channel", url = "t.me/zennihhh" )
         ]
     ]
     
@@ -40,7 +40,7 @@ def home(update, context):
             InlineKeyboardButton( text = "Petunjuk", callback_data = "help" ),
             InlineKeyboardButton( text = "Tentangku", callback_data = "about" )
         ],[
-            InlineKeyboardButton( text = "Channel", url = "t.me/gcaika" )
+            InlineKeyboardButton( text = "Channel", url = "t.me/zennihhh" )
         ]
     ]
     
